@@ -6,7 +6,8 @@ from datetime import datetime
 
 OCEANIA = "oce"
 KOREA = "kr"
-EUROPE_WEST=  "euw"
+EUROPE_WEST = "euw"
+VIETNAM = "vn"
 
 class account:
     def __init__(self, region, name, summoner):
@@ -60,13 +61,20 @@ def request_recording(region, summoner):
 
 
 accounts = []
+
+#Irelia 
 accounts.append(account(KOREA, "Irelking", "이렐아칼리"))
 accounts.append(account(KOREA, "Irelking", "aileri"))
 accounts.append(account(KOREA, "Irelking", "erilia"))
 accounts.append(account(KOREA, "Irelking", "IRELKlNG"))
-accounts.append(account(OCEANIA, "Void Daughter", "Void Daughter"))
-accounts.append(account(EUROPE_WEST, "Zhong", "zhongoida"))
-accounts.append(account(EUROPE_WEST, "Zhong", "zhong"))
+
+#Jayce
+accounts.append(account(KOREA, "midqaqq", "midqaqq"))
+accounts.append(account(KOREA, "ToIanD", "ToIanD"))
+accounts.append(account(EUROPE_WEST, "Caps", "G2 Joker"))
+accounts.append(account(EUROPE_WEST, "Saken", "SAKEN"))
+
+#Friends
 accounts.append(account(EUROPE_WEST, "Six10", "Six10 z"))
 accounts.append(account(EUROPE_WEST, "Neckless", "Neckiess"))
 accounts.append(account(EUROPE_WEST, "Saiel", "Saiel"))
